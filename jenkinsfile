@@ -8,11 +8,9 @@ pipeline {
     stage('shared repository') {
       steps {
 	  
-stage('Demo') {
     echo 'Hello world'
     sayHello 'Dave'
-}
-
+    
          }
 
       }
