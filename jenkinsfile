@@ -9,6 +9,7 @@ pipeline {
       steps {
 	  
     echo 'Hello world'
+    sayHello 'singu'
     
          }
 
