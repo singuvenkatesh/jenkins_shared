@@ -1,5 +1,22 @@
 @Library('singuvenkatesh/jenkins_shared') _
-standardPipeline {
+
+pipeline {
+  agent any
+    
+  stages {
+        
+    stage('shared repository') {
+      steps {
+	  
+	  standardPipeline {
     projectName = "Project1"
     serverDomain = "Project1 Server Domain"
-}
+             }
+
+         }
+
+      }
+
+            }
+
+     }
