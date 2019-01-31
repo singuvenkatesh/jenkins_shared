@@ -8,10 +8,10 @@ pipeline {
     stage('shared repository') {
       steps {
 	  
-	  standardPipeline {
-    projectName = "Project1"
-    serverDomain = "Project1 Server Domain"
-             }
+stage('Demo') {
+    echo 'Hello world'
+    sayHello 'Dave'
+}
 
          }
 
