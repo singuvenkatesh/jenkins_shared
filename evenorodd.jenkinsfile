@@ -1,0 +1,2 @@
+@Library('singuvenkatesh/jenkins_shared') _
+evenOrOdd(currentBuild.getNumber())
