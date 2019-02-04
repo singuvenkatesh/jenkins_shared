@@ -1,4 +1,4 @@
 @Library('singuvenkatesh/jenkins_shared') _
-evenOrOdd(currentBuild.getNumber())
+evenOrOdd(Build.getNumber())
 log.info 'Starting'
 log.warning 'Nothing to do!'
